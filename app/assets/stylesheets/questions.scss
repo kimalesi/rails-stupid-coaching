@@ -1,0 +1,22 @@
+$gray: #F4F4F4;
+$bleu: #337AB7;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.btn {
+  color: white;
+  background-color: $bleu;
+  border-radius: 5px;
+  &:hover {
+    background-color: grey;
+  }
+}
+
+#input {
+  border-radius: 5px;
+}
+// Place all the styles related to the pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
